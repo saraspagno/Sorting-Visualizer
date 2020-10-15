@@ -1,0 +1,138 @@
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  position: absolute;
+  top: 49%;
+  left: 50%;
+  transform: translate(-50%, -50%) !important;
+  width: 33%;
+
+  /*style*/
+  background-color: white;
+  border-radius: .3rem;
+  border: 1px solid rgba(0,0,0,.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+
+
+  /*text*/
+  color: #212529;
+  text-align: left;
+  font-family: "Source Code Pro", monospace;
+  opacity: 1.0;
+}
+
+
+
+.modal-header {
+  border-bottom: 1px solid #dee2e6;
+  text-align: center;
+  font-size: 1.7vw;
+  font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  line-height: 0.5;
+  color: #80807c;
+  box-shadow: 0px 7px 22px -13px rgba(0,0,0,0.1);
+}
+
+
+.modal-body {
+  max-height: calc(100vh - 12rem);
+  overflow-y: auto;
+}
+
+.modal-timeComplexity {
+  font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-size: 0.65rem;
+  line-height: 0.5rem;
+  border-bottom: 1px solid #dee2e6;
+  color: #2e2e30;
+}
+
+.modal-subtitle {
+  font-size: 0.75rem;
+  text-decoration: underline;
+  line-height: 1;
+  font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-weight: 350;
+  color: #212529;
+
+}
+
+.modal-code {
+  width: fit-content;
+  min-width: 31.5vw;
+
+
+
+  background-color: #f0f0f2;
+  border-radius: .1rem;
+  margin-left: 5px;
+  margin-right: 15px;
+  border: 1px solid rgba(0,0,0,.2);
+  border-left: 4px solid #666666;
+}
+
+p {
+  padding-left: 10px;
+}
+
+.comment {
+  color: gray;
+}
+
+.close {
+  position: absolute;
+  top: 1.4vw;
+  right: 1.4vw;
+
+  color: #aaa;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-footer {
+  margin-top: 7px;
+  border-top: 2px solid #dee2e6;
+}
+
+.close-red {
+  color: white;
+  font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  letter-spacing: .1em;
+
+  float: right;
+  margin-right: 16px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+  padding: 7px 20px;
+
+  border-radius: .3rem;
+  background-color: #ff5148;
+}
+
+
+.close-red:hover {
+  cursor: pointer;
+  background-color: #ff6961;
+}
+
+.close-red:active {
+  background-color: #ff5148
+
+}

@@ -1,0 +1,33 @@
+.body{
+  display: inline-block;
+  width:100%;
+  height:85vh;
+  position: absolute;
+  bottom:5vh;
+  left:0;
+  background-color: #f0f0f2;
+}
+
+.array-container {
+  height: 100%;
+  position: absolute;
+  left: 24.2vw;
+}
+
+.pseudo{
+  display: inline-block;
+  width:0;
+  height:100%;
+  vertical-align:bottom;
+}
+
+
+.array-bar {
+  height: 100%;
+  background-color: #FE6B64;
+  margin-left: 0.07vw;
+  border-radius: 5px 5px 0px 0px;
+  display: inline-block;
+  margin-top: 20px;
+  vertical-align : bottom;
+}

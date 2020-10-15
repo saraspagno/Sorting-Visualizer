@@ -1,0 +1,28 @@
+.footer {
+  background-color: #303031;
+  height:5vh;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.copyright {
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 5vh;
+}
+
+.linkedin {
+  margin-left: 10px;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.linkedin:hover {
+  cursor: pointer;
+}
