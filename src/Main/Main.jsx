@@ -184,6 +184,7 @@ export default class Toolbar extends React.Component {
       <MergeSortModal/>
       </div>
       </div>
+      <div className="bodyContainer">
       <div className="body">
       <div className="box">
       <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/glacial-indifference" type="text/css"/>
@@ -224,6 +225,7 @@ export default class Toolbar extends React.Component {
       </div>
       </div>
       <Footer/>
+      </div>
       </div>
     );
   }

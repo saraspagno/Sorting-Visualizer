@@ -3,9 +3,10 @@
   width:100%;
   height:85vh;
   position: absolute;
-  bottom:5vh;
+  top:10vh;
   left:0;
   background-color: #f0f0f2;
+  margin-bottom: 5vh;
 }
 
 .array-container {
